@@ -1,0 +1,20 @@
+{
+    "name": "ai.lookbe.mayatts",
+    "version": "0.0.1",
+    "displayName": "Maya TTS Unity",
+    "description": "Maya TTS for Unity",
+    "unity": "2021.3",
+    "keywords": [
+        "tts",
+        "ai"
+    ],
+    "author": {
+        "name": "lookbe"
+    },
+	"samples": [
+    {
+	  "displayName": "Basic Maya",
+	  "description": "Shows the basic Maya TTS usage.",
+	  "path": "Samples~/BasicMaya"
+    }]
+}
