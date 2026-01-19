@@ -145,9 +145,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mayaModelPath: D:/ai/gguf/tts/maya1.Q4_K_M.gguf
   snacModelPath: D:/ai/onnx/snac_24khz/decoder_model.onnx
-  speakerDescription: High-pitched, youthful female voice with a bright, energetic.
-    The delivery should be excitable, fast-paced, and boastful. Inflections should
-    rise at the end of sentences. Clear articulation but melodic quality.
+  speakerDescription: Young woman, breathy, soft, intimate, gentle, low-stability,
+    emotional, slow, relaxed, human.
 --- !u!1 &8511389694172475196
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,7 +199,7 @@ MonoBehaviour:
   topK: 40
   topP: 0.95
   minP: 0.05
-  repeatPenalty: 1
+  repeatPenalty: 1.1
 --- !u!114 &306034129442606788
 MonoBehaviour:
   m_ObjectHideFlags: 0
