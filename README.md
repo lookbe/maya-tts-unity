@@ -65,7 +65,7 @@ You must download the following two models separately:
 ## ▶️ Demo Video
 
 Watch the demo here:  
-to be uploaded
+https://www.youtube.com/watch?v=iOdATgxXe0o
 
 ---
 
