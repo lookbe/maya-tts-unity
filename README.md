@@ -34,7 +34,7 @@ Open your project's `Packages/manifest.json` and update it to include the scoped
   "scopedRegistries": [
     {
       "name": "npm",
-      "url": "[https://registry.npmjs.com](https://registry.npmjs.com)",
+      "url": "https://registry.npmjs.com",
       "scopes": [
         "com.github.asus4"
       ]
@@ -43,8 +43,8 @@ Open your project's `Packages/manifest.json` and update it to include the scoped
   "dependencies": {
     "com.github.asus4.onnxruntime": "0.4.2",
     "com.github.asus4.onnxruntime.unity": "0.4.2",
-    "ai.lookbe.llamacpp": "[https://github.com/lookbe/llama-cpp-unity.git](https://github.com/lookbe/llama-cpp-unity.git)",
-    "ai.lookbe.mayatts": "[https://github.com/lookbe/maya-tts-unity.git](https://github.com/lookbe/maya-tts-unity.git)",
+    "ai.lookbe.llamacpp": "https://github.com/lookbe/llama-cpp-unity.git",
+    "ai.lookbe.mayatts": "https://github.com/lookbe/maya-tts-unity.git",
 
     ... other dependencies
   }
