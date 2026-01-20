@@ -69,6 +69,11 @@ https://www.youtube.com/watch?v=iOdATgxXe0o
 
 ---
 
+## Voice prompt guide
+https://huggingface.co/maya-research/maya1/blob/main/prompt.txt
+
+---
+
 ## Testing
 
 1. **Import Samples:** Go to the Package Manager, select **Maya1 TTS Unity**, and import the **Basic Maya** sample.
