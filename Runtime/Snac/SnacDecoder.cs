@@ -43,9 +43,9 @@ namespace MayaTTS
             unityContext?.Post(_ => status = newStatus, null);
         }
 
-        async void OnDestroy()
+        void OnDestroy()
         {
-            await BackgroundStop();
+            BackgroundStopSync();
 
             // Wait for all remaining background tasks to complete
             List<Task> remainingTasks = _backgroundTasks.Values.ToList();
@@ -53,7 +53,7 @@ namespace MayaTTS
             if (remainingTasks.Count > 0)
             {
                 Debug.Log($"Waiting for {remainingTasks.Count} remaining background tasks to finish...");
-                await Task.WhenAll(remainingTasks);
+                Task.WaitAll(remainingTasks.ToArray());
             }
 
             FreeModel();
